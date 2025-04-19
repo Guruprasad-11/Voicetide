@@ -51,8 +51,9 @@ def display_summary(df):
 
 # --- Streamlit App ---
 
-st.set_page_config(page_title="YouTube Comment Analyzer", layout="wide")
-st.title("YouTube Comment Analyzer & Translator")
+st.set_page_config(page_title="Voicetide", layout="wide")
+st.title("Voicetide")
+st.subheader("Analyze, Translate, and Extract Insights from YouTube Comments")
 
 url = st.text_input("Enter a YouTube video URL:")
 
