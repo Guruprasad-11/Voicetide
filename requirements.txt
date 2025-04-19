@@ -9,6 +9,7 @@ deep-translator==1.11.4
 
 # Language detection
 langdetect==1.0.9
+emoji==2.14.1
 
 # NLTK (used for language processing)
 nltk==3.9.1
