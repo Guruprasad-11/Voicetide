@@ -8,6 +8,10 @@ def analyze_sentiment(df):
     Analyzes sentiment of each comment and adds a 'sentiment' column.
     Classifies into Positive, Negative, or Neutral based on the compound score.
     """
+
+    # Remove rows with empty or NaN translated comments
+    df = df[df['translated'].notna() & (df['translated'].str.strip() != "")]
+    
     # List to store sentiment classifications
     sentiments = []
 
