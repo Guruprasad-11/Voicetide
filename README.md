@@ -2,6 +2,8 @@
 
 **Voicetide** is an intelligent YouTube comment analysis and translation platform. It helps you uncover sentiment, generate viewer suggestions, and summarize audience feedback — all from a single video URL. Ideal for content creators, marketers, and researchers seeking actionable insights from real audience engagement.
 
+**Live App**: [Voicetide on Streamlit](https://voicetide-insights.streamlit.app/)
+
 ---
 
 ## Features
