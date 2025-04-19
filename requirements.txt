@@ -1,0 +1,44 @@
+# Streamlit for the web framework
+streamlit==1.13.0
+
+# Google API client to interact with YouTube
+google-api-python-client==2.72.0
+
+# Deep Translator to translate comments
+deep-translator==1.9.1
+
+# Language detection
+langdetect==1.0.9
+
+# NLTK (used for language processing)
+nltk==3.7
+
+# Sentiment Analysis
+vaderSentiment==3.3.2
+
+# Hugging Face Transformers for summarization
+transformers==4.22.2
+
+# PyTorch (needed for Hugging Face models)
+torch==1.12.0
+
+# Sentence transformers for semantic similarity (optional)
+sentence-transformers==2.2.2
+
+# KeyBERT for keyword extraction
+keybert==0.6.0
+
+# Scikit-learn for ML utilities (used in many NLP models)
+scikit-learn==0.24.2
+
+# Matplotlib for plotting
+matplotlib==3.7.1
+
+# Plotly for plotting (if used, otherwise remove)
+plotly==5.9.0
+
+# Wordcloud for generating word clouds
+wordcloud==1.8.1
+
+# dotenv to load .env file and keep API keys safe
+python-dotenv==0.19.2
